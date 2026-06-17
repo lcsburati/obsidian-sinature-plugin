@@ -324,8 +324,7 @@
 }
 
 .sig-dashboard-row {
-  display: grid;
-  grid-template-columns: 1.6rem 1fr auto;
+  display: flex;
   align-items: center;
   gap: var(--size-4-2);
   padding: var(--size-4-2) var(--size-4-3);
@@ -348,13 +347,17 @@
   font-size: 0.9rem;
   line-height: 1;
   text-align: center;
+  flex-shrink: 0;
+  width: 1.4rem;
 }
 
 .sig-row-info {
   display: flex;
   flex-direction: column;
   gap: 1px;
+  flex: 1;
   min-width: 0;
+  overflow: hidden;
 }
 
 .sig-row-name {
@@ -378,12 +381,14 @@
   font-size: calc(var(--font-ui-small) - 1px);
   color: var(--text-faint);
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
 .sig-row-status {
   font-size: calc(var(--font-ui-small) - 1px);
   white-space: nowrap;
   flex-shrink: 0;
+  margin-left: auto;
 }
 
 /* ── Settings: abas (Assinantes / Gerenciador) ────────── */

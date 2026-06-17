@@ -1,7 +1,7 @@
 {
   "id": "obsidian-signature",
   "name": "Signature",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "minAppVersion": "1.0.0",
   "description": "Sign notes inline with tamper-proof hashes. Central de Assinaturas dashboard, admin roles, hash validation, detailed tamper reports. Tags: [assinatura], [signature], [签名].",
   "author": "Lucas Burati",
